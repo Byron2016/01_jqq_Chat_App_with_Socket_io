@@ -36,3 +36,27 @@
 			- 
 
 
+live server extension settings
+
+{
+  "workbench.iconTheme": "vscode-icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "window.zoomLevel": -1,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.multiRootWorkspaceName": "",
+"liveServer.settings.port": 3000,
+"liveServer.settings.proxy": {
+
+}
+}
+
+.vscode

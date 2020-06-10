@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <div id="appContainer" class="flex-column">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,24 +9,50 @@
   </head>
   <body>
     <header>
-      <div>
+      <div class="container flex-column flex-center">
         <h1>Quick Chat</h1>
-        <p>The easiest way to get your message across.</p>
+        <p class="light-text">The easiest way to get your message across.</p>
       </div>
     </header>
-    <div id="idmainContent">
+
+    <div id="mainContent" class="container flex-grow-1 flex-column flex-center">
       <section id="login">
-        <h2>Get Started</h2>
-        <form id="loginForm"></form>
+        <h2 class="text-center">Get Started</h2>
+        <form id="loginForm" class="flex">
+          <input type="text" name="username" class="flex-grow-1" id="usernameInput" placeholder="user name"
+          >
+          <button id="loginBtn">Chat</button>
+        </form>
       </section>
-      <section id="chat">
+      <section id="chat" class="hidden">
         <div id="messagesList">
-          <div class="message message-right"></div>
-          <div class="message message-left"></div>
+          <div class="message message-left">
+            <div id="message-details">
+              <p class="message-autor">James Quick</p>
+              <p class="message-date">10/10/2000</p>
+            </div>
+            <p class="message-content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet voluptate tempora eos facere modi.
+            </p>
+          </div>
+          <div class="message message-left">
+            <div id="message-details">
+              <p class="message-autor"></p>
+              <p class="message-date">10/10/2000</p>
+            </div>
+            <p class="message-content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet voluptate tempora eos facere modi.
+            </p>
+            </div>
+            <p class="secondary-text text-center">James Quick has joined the chat</p>
         </div>
-        <form id="MessageForm"></form>
+        <form id="MessageForm" class="flex">
+          <input type="text" name="message" class="flex-grow-1" id="messageInput" placeholder="enter a messagge">
+          <button id="loginBtn"></button>
+        </form>
       </section>
     </div>
+  </div>
     <script src="../src/app.js"></script>
   </body>
 </html>
