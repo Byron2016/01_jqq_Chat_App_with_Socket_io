@@ -1,0 +1,12 @@
+    ***************************************************************
+    **                                                           **
+    **             01_jqq_Chat_App_with_Socket_io                **
+    **                                                           **
+    ***************************************************************
+- 01_jqq_Chat_App_with_Socket_io
+	- TITULO: Design and Build a Chat App with Socket.io
+	- REFERENCIAS
+		- https://www.youtube.com/watch?v=-0j_9LqsOkQ&list=PLDlWc9AfQBfbyGwhSlxg16mQGpGnauCwq
+		
+	- PASOS
+		- npx create-react-app 00_lm_react_fundamentos
