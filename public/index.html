@@ -15,8 +15,8 @@
       </div>
     </header>
 
-    <div id="mainContent" class="container flex-grow-1 flex-column flex-center">
-      <section id="login">
+    <div id="mainContent" class="container flex-grow-1 flex-column ">
+      <section id="login" class="hidden">
         <h2 class="text-center">Get Started</h2>
         <form id="loginForm" class="flex">
           <input type="text" name="username" class="flex-grow-1" id="usernameInput" placeholder="user name"
@@ -24,10 +24,10 @@
           <button id="loginBtn">Chat</button>
         </form>
       </section>
-      <section id="chat" class="hidden">
-        <div id="messagesList">
+      <section id="chat" class="flex-grow-1 flex-column">
+        <div id="messagesList" class="flex-grow-1">
           <div class="message message-left">
-            <div id="message-details">
+            <div id="message-details" class="flex">
               <p class="message-autor">James Quick</p>
               <p class="message-date">10/10/2000</p>
             </div>
@@ -35,8 +35,8 @@
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet voluptate tempora eos facere modi.
             </p>
           </div>
-          <div class="message message-left">
-            <div id="message-details">
+          <div class="message message-right">
+            <div id="message-details" class="flex">
               <p class="message-autor"></p>
               <p class="message-date">10/10/2000</p>
             </div>
@@ -44,11 +44,11 @@
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet voluptate tempora eos facere modi.
             </p>
             </div>
-            <p class="secondary-text text-center">James Quick has joined the chat</p>
+            <p class="secondary-text text-center mb-2">James Quick has joined the chat</p>
         </div>
-        <form id="MessageForm" class="flex">
+        <form id="MessageForm" class="flex mb-2">
           <input type="text" name="message" class="flex-grow-1" id="messageInput" placeholder="enter a messagge">
-          <button id="loginBtn"></button>
+          <button id="loginBtn">Send</button>
         </form>
       </section>
     </div>

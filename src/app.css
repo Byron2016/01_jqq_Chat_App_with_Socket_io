@@ -1,8 +1,9 @@
 /* Variables */
 :root {
-  --privary-blue: #2196f3;
+  --primary-blue: #2196f3;
   --dark-blue: #1976d2;
-  --light-blue: #ffffff;
+  --light-blue: #bbdefb;
+  --white: #ffffff;
   --primary-text: #212121;
   --secondary-text: #757575;
   --light-gray: #bdbdbd;
@@ -44,7 +45,7 @@ body {
 }
 
 .mb-2 {
-  margin-bottom: 20p;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -91,7 +92,12 @@ header .container {
 #appContainer {
   height: 100vh;
   width: 100vw;
-  background-color: var(--privary-blue);
+  background-color: var(--primary-blue);
+}
+
+#mainContent {
+  justify-content: center;
+  width: 100%;
 }
 
 /* Login Form */
@@ -100,4 +106,65 @@ header .container {
   padding: 40px 100px;
   box-shadow: 0 2px rgba(0, 0, 0, 0.5);
   margin-top: -100px;
+}
+
+#loginForm {
+  margin-top: 20px;
+}
+
+/* Form Elementes */
+input {
+  height: 40px;
+  padding: 10px;
+  background: var(--light-blue);
+  border: none;
+  color: var(--secondary-text);
+}
+
+button {
+  height: 40px;
+  padding: 0 15px;
+  background-color: var(--primary-blue);
+  color: white;
+  border: none;
+}
+
+/* Chat Section */
+#chat {
+  background: white;
+  margin: 25px;
+  padding: 25px;
+  color: white;
+  overflow-y: auto;
+}
+
+.message {
+  background-color: var(--primary-blue);
+  padding: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.message-right {
+  background-color: var(--light-blue);
+  color: var(--primary-text);
+  margin-left: 20%;
+}
+
+#message-details {
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+.message-author {
+  font-weight: 800;
+}
+
+.message-date {
+  font-weight: 100;
+  font-style: 14px;
+}
+
+.message-content {
+  font-weight: 200;
 }
