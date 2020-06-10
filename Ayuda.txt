@@ -9,4 +9,30 @@
 		- https://www.youtube.com/watch?v=-0j_9LqsOkQ&list=PLDlWc9AfQBfbyGwhSlxg16mQGpGnauCwq
 		
 	- PASOS
-		- npx create-react-app 00_lm_react_fundamentos
+		- DEBUGING
+			- Debugging JavaScript (Google Chrome and Visual Studio Code)
+				- https://www.youtube.com/watch?v=AX7uybwukkk
+				- https://code.visualstudio.com/docs/editor/debugging#_launch-configurations
+				- EXTENSIONES
+					- Debugger for Chrome
+					- Configuración
+						- Ir a Run
+						- Seleccionar "Add Configuration"
+						- Seleccionar Chrome
+						- Poner servidor a: 
+						- "url": "http://localhost:3000",
+						- "webRoot": "${workspaceFolder}/public"
+					
+				- CHROME
+					- 
+				- VS CODE
+					- Colocar
+						- console.log("....");
+						- debugger;
+				- RECHAZÓ CONEXION
+					- 
+		- The best products start with Sketch
+			- https://www.sketch.com/
+			- 
+
+
