@@ -33,7 +33,17 @@
 					- 
 		- The best products start with Sketch
 			- https://www.sketch.com/
-			- 
+			-  
+
+		- Snippets
+			- settings
+			- Use Snippets
+			- Seleccionar javascript
+				"Get Element by id": {
+				   "prefix": "getid",
+				   "body": "const $1 = document.getElementById('$1');\n$0",
+				   "description": "Gets DOM element by id"
+			    }
 
 
 live server extension settings
