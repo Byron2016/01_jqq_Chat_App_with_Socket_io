@@ -132,10 +132,11 @@ button {
 /* Chat Section */
 #chat {
   background: white;
+  height: 100px;
   margin: 25px;
-  padding: 25px;
+  padding: 25px 25px;
   color: white;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .message {

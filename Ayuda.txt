@@ -44,6 +44,57 @@
 				   "body": "const $1 = document.getElementById('$1');\n$0",
 				   "description": "Gets DOM element by id"
 			    }
+				
+				
+		- Mejorar rendimiento en VSC
+			- https://www.youtube.com/watch?v=Ijz_TOyDnAk
+			- ShortCuts
+				- https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+			- Layout
+				- Mover las ventanas q no necesitas o si necesitas.
+			- Customization
+				- Layout
+				- short cuts
+				- 
+			- EXTENSIONES
+				- Live Server
+			
+			- Snippets
+				- 
+			- Automating Formating
+				- Prettier
+				- ESLint
+				- TSLint
+				- 
+				
+		- Awesome Visual Studio Code Extensions for Writing HTML
+			- https://www.youtube.com/watch?v=Z5RkLrSDlFA
+			- Emmet
+			- Auto Close Tag (Jun Hung)
+			- Auto Rename Tag (Jun Hung)
+			- html tag wrapper
+				- Crtl I
+			- Live Server (Static websides)
+			-
+		- 15 VS Code Extensions For Front-End Developers in 2019
+			- https://www.youtube.com/watch?v=LdF2RcelRg0
+			- Live Server (Ritwick Dey)
+			- HTML CSS SUPPORT (ecmel)
+			- Auto Rename Tag
+			- Prettier . Code Formatter (Estben Petersen)
+				- 
+			- JavaScript (ES6)code Snippets (Charalarrpos Kaypids)
+			- Turbo Console Log (ChakrouAnas)
+			- Indent-rainbow (oderwat)
+			- Bracket Pair Colorizer (CoeYaadS)
+			- Code Spell checker (Street Side Software)
+			- Rest Client (Huachao Mao)
+			- GitLens - Git supercharged (Eric Amodio)
+			- Auto-Open Markdown Previe (hnw)
+			- ES7 React/Redux/Graph!L/React-Native snippets
+			- Vetur (Pine WU)
+			
+				
 
 
 live server extension settings

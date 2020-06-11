@@ -16,15 +16,14 @@
     </header>
 
     <div id="mainContent" class="container flex-grow-1 flex-column ">
-      <section id="login" class="hidden">
+      <section id="login" class="">
         <h2 class="text-center">Get Started</h2>
         <form id="loginForm" class="flex">
-          <input type="text" name="username" class="flex-grow-1" id="usernameInput" placeholder="user name"
-          >
+          <input type="text" name="username" class="flex-grow-1" id="usernameInput" placeholder="user name" autocomplete="off">
           <button id="loginBtn">Chat</button>
         </form>
       </section>
-      <section id="chat" class="flex-grow-1 flex-column">
+      <section id="chat" class="hidden flex-grow-1 flex-column">
         <div id="messagesList" class="flex-grow-1">
           <!--           
           <div class="message message-left">
@@ -49,8 +48,8 @@
           -->
         </div>
         <form id="MessageForm" class="flex mb-2">
-          <input type="text" name="message" class="flex-grow-1" id="messageInput" placeholder="enter a messagge">
-          <button id="loginBtn">Send</button>
+          <input type="text" name="message" class="flex-grow-1" id="messageInput" placeholder="enter a messagge" autocomplete="off">
+          <button id="sendBtn">Send</button>
         </form>
       </section>
     </div>
